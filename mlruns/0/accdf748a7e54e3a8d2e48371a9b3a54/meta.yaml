@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rodolfo/Insync/rodolfopcruz2%40gmail.com/Google%20Drive/Estudo/Udacity/Machine%20Learning%20DevOps%20Engineer%20-%20Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/mlruns/0/accdf748a7e54e3a8d2e48371a9b3a54/artifacts
+end_time: 1738268280467
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: accdf748a7e54e3a8d2e48371a9b3a54
+run_name: aged-conch-844
+run_uuid: accdf748a7e54e3a8d2e48371a9b3a54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738268267645
+status: 3
+tags: []
+user_id: rodolfo

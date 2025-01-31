@@ -1,0 +1,196 @@
+2025-01-30 17:06:32,374 INFO    StreamThr :293319 [internal.py:wandb_internal():86] W&B internal server running at pid: 293319, started at: 2025-01-30 17:06:32.373620
+2025-01-30 17:06:32,376 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: status
+2025-01-30 17:06:32,377 INFO    WriterThread:293319 [datastore.py:open_for_write():87] open: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/run-gzxiyh9c.wandb
+2025-01-30 17:06:32,379 DEBUG   SenderThread:293319 [sender.py:send():378] send: header
+2025-01-30 17:06:32,381 DEBUG   SenderThread:293319 [sender.py:send():378] send: run
+2025-01-30 17:06:32,952 INFO    SenderThread:293319 [dir_watcher.py:__init__():211] watching files in: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files
+2025-01-30 17:06:32,952 INFO    SenderThread:293319 [sender.py:_start_run_threads():1099] run started: gzxiyh9c with start time 1738267592.373464
+2025-01-30 17:06:32,958 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: check_version
+2025-01-30 17:06:32,958 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: check_version
+2025-01-30 17:06:33,074 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: run_start
+2025-01-30 17:06:33,075 DEBUG   HandlerThread:293319 [system_info.py:__init__():26] System info init
+2025-01-30 17:06:33,075 DEBUG   HandlerThread:293319 [system_info.py:__init__():41] System info init done
+2025-01-30 17:06:33,075 INFO    HandlerThread:293319 [system_monitor.py:start():194] Starting system monitor
+2025-01-30 17:06:33,075 INFO    SystemMonitor:293319 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-01-30 17:06:33,076 INFO    HandlerThread:293319 [system_monitor.py:probe():214] Collecting system info
+2025-01-30 17:06:33,076 INFO    SystemMonitor:293319 [interfaces.py:start():190] Started cpu monitoring
+2025-01-30 17:06:33,076 INFO    SystemMonitor:293319 [interfaces.py:start():190] Started disk monitoring
+2025-01-30 17:06:33,077 INFO    SystemMonitor:293319 [interfaces.py:start():190] Started memory monitoring
+2025-01-30 17:06:33,077 INFO    SystemMonitor:293319 [interfaces.py:start():190] Started network monitoring
+2025-01-30 17:06:33,082 DEBUG   HandlerThread:293319 [system_info.py:probe():150] Probing system
+2025-01-30 17:06:33,083 DEBUG   HandlerThread:293319 [system_info.py:_probe_git():135] Probing git
+2025-01-30 17:06:33,086 DEBUG   HandlerThread:293319 [system_info.py:_probe_git():143] Probing git done
+2025-01-30 17:06:33,086 DEBUG   HandlerThread:293319 [system_info.py:probe():198] Probing system done
+2025-01-30 17:06:33,086 DEBUG   HandlerThread:293319 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-52-generic-x86_64-with-glibc2.35', 'python': '3.10.16', 'heartbeatAt': '2025-01-30T20:06:33.082309', 'startedAt': '2025-01-30T20:06:32.361400', 'docker': None, 'cuda': None, 'args': ('--input_artifact', 'preprocessed_data.csv:latest', '--artifact_root', 'data', '--artifact_type', 'segregated data', '--test_size', '0.3', '--random_state', '42', '--stratify', 'genre'), 'state': 'running', 'program': '/home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/run.py', 'codePathLocal': 'run.py', 'codePath': 'segregate/run.py', 'git': {'remote': 'https://github.com/RodolfoPCruz/genre_classification.git', 'commit': '20fce6bef1e5af45a037e6a334177eea37e312e4'}, 'email': 'rodolfo_pinheiro@hotmail.com', 'root': '/home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification', 'host': 'rodolfo-Vostro-3681', 'username': 'rodolfo', 'executable': '/home/rodolfo/anaconda3/envs/mlflow-f9ba271db3d11ecbef8779ccec5d3db3d87fa2a0/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2933.5902499999993, 'min': 800.0, 'max': 4300.0}, 'cpu_freq_per_core': [{'current': 4000.001, 'min': 800.0, 'max': 4300.0}, {'current': 4000.186, 'min': 800.0, 'max': 4300.0}, {'current': 4000.013, 'min': 800.0, 'max': 4300.0}, {'current': 3998.168, 'min': 800.0, 'max': 4300.0}, {'current': 4000.102, 'min': 800.0, 'max': 4300.0}, {'current': 4007.705, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 3997.492, 'min': 800.0, 'max': 4300.0}, {'current': 4003.471, 'min': 800.0, 'max': 4300.0}, {'current': 800.042, 'min': 800.0, 'max': 4300.0}, {'current': 800.772, 'min': 800.0, 'max': 4300.0}, {'current': 799.994, 'min': 800.0, 'max': 4300.0}], 'disk': {'/': {'total': 233.17998886108398, 'used': 217.98116302490234}}, 'memory': {'total': 31.09457015991211}}
+2025-01-30 17:06:33,086 INFO    HandlerThread:293319 [system_monitor.py:probe():224] Finished collecting system info
+2025-01-30 17:06:33,086 INFO    HandlerThread:293319 [system_monitor.py:probe():227] Publishing system info
+2025-01-30 17:06:33,087 DEBUG   HandlerThread:293319 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-01-30 17:06:33,954 INFO    Thread-12 :293319 [dir_watcher.py:_on_file_created():271] file/dir created: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/conda-environment.yaml
+2025-01-30 17:06:34,234 DEBUG   HandlerThread:293319 [system_info.py:_save_conda():219] Saving conda packages done
+2025-01-30 17:06:34,234 INFO    HandlerThread:293319 [system_monitor.py:probe():229] Finished publishing system info
+2025-01-30 17:06:34,235 DEBUG   SenderThread:293319 [sender.py:send():378] send: files
+2025-01-30 17:06:34,236 INFO    SenderThread:293319 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2025-01-30 17:06:34,382 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: python_packages
+2025-01-30 17:06:34,383 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: stop_status
+2025-01-30 17:06:34,383 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: python_packages
+2025-01-30 17:06:34,383 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: stop_status
+2025-01-30 17:06:34,385 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: internal_messages
+2025-01-30 17:06:34,607 DEBUG   SenderThread:293319 [sender.py:send():378] send: telemetry
+2025-01-30 17:06:34,920 INFO    wandb-upload_0:293319 [upload_job.py:push():131] Uploaded file /tmp/tmpzrgusx5iwandb/5rraujv1-wandb-metadata.json
+2025-01-30 17:06:34,953 INFO    Thread-12 :293319 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/conda-environment.yaml
+2025-01-30 17:06:34,954 INFO    Thread-12 :293319 [dir_watcher.py:_on_file_created():271] file/dir created: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/wandb-metadata.json
+2025-01-30 17:06:34,955 INFO    Thread-12 :293319 [dir_watcher.py:_on_file_created():271] file/dir created: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/requirements.txt
+2025-01-30 17:06:34,955 INFO    Thread-12 :293319 [dir_watcher.py:_on_file_created():271] file/dir created: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/output.log
+2025-01-30 17:06:35,296 DEBUG   SenderThread:293319 [sender.py:send():378] send: use_artifact
+2025-01-30 17:06:36,363 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: log_artifact
+2025-01-30 17:06:36,363 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: log_artifact
+2025-01-30 17:06:36,954 INFO    Thread-12 :293319 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/output.log
+2025-01-30 17:06:37,045 INFO    SenderThread:293319 [sender.py:send_request_log_artifact():1431] logged artifact data_train.csv - {'id': 'QXJ0aWZhY3Q6MTQ3OTI1OTAxMg==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NDUwMTg2Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTQ3OTI1OTAxMg==', 'versionIndex': 0}}}
+2025-01-30 17:06:37,860 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: status_report
+2025-01-30 17:06:38,156 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: log_artifact
+2025-01-30 17:06:38,157 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: log_artifact
+2025-01-30 17:06:38,382 INFO    SenderThread:293319 [sender.py:send_request_log_artifact():1431] logged artifact data_test.csv - {'id': 'QXJ0aWZhY3Q6MTQ3OTI1OTIwNw==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NDUwMTk0Ng==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTQ3OTI1OTIwNw==', 'versionIndex': 0}}}
+2025-01-30 17:06:38,956 INFO    Thread-12 :293319 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/output.log
+2025-01-30 17:06:39,125 DEBUG   SenderThread:293319 [sender.py:send():378] send: exit
+2025-01-30 17:06:39,125 INFO    SenderThread:293319 [sender.py:send_exit():585] handling exit code: 0
+2025-01-30 17:06:39,125 INFO    SenderThread:293319 [sender.py:send_exit():587] handling runtime: 6
+2025-01-30 17:06:39,125 INFO    SenderThread:293319 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-01-30 17:06:39,126 INFO    SenderThread:293319 [sender.py:send_exit():593] send defer
+2025-01-30 17:06:39,126 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:39,126 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 0
+2025-01-30 17:06:39,127 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:39,127 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-01-30 17:06:39,127 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 1
+2025-01-30 17:06:39,127 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:39,127 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 1
+2025-01-30 17:06:39,128 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:39,128 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-01-30 17:06:39,128 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 2
+2025-01-30 17:06:39,128 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:39,128 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 2
+2025-01-30 17:06:39,128 INFO    HandlerThread:293319 [system_monitor.py:finish():203] Stopping system monitor
+2025-01-30 17:06:39,128 DEBUG   SystemMonitor:293319 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-01-30 17:06:39,128 DEBUG   SystemMonitor:293319 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-01-30 17:06:39,128 DEBUG   SystemMonitor:293319 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-01-30 17:06:39,129 INFO    HandlerThread:293319 [interfaces.py:finish():202] Joined cpu monitor
+2025-01-30 17:06:39,129 INFO    HandlerThread:293319 [interfaces.py:finish():202] Joined disk monitor
+2025-01-30 17:06:39,130 INFO    HandlerThread:293319 [interfaces.py:finish():202] Joined memory monitor
+2025-01-30 17:06:39,130 INFO    HandlerThread:293319 [interfaces.py:finish():202] Joined network monitor
+2025-01-30 17:06:39,130 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:39,130 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-01-30 17:06:39,131 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 3
+2025-01-30 17:06:39,131 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:39,131 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 3
+2025-01-30 17:06:39,132 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:39,132 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-01-30 17:06:39,132 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 4
+2025-01-30 17:06:39,132 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:39,132 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 4
+2025-01-30 17:06:39,133 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:39,133 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-01-30 17:06:39,133 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 5
+2025-01-30 17:06:39,133 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:39,133 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 5
+2025-01-30 17:06:39,134 DEBUG   SenderThread:293319 [sender.py:send():378] send: summary
+2025-01-30 17:06:39,135 INFO    SenderThread:293319 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-01-30 17:06:39,135 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:39,135 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-01-30 17:06:39,136 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 6
+2025-01-30 17:06:39,136 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:39,136 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 6
+2025-01-30 17:06:39,137 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:39,137 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-01-30 17:06:39,142 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: status_report
+2025-01-30 17:06:39,397 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 7
+2025-01-30 17:06:39,397 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:39,397 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 7
+2025-01-30 17:06:39,397 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:39,397 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-01-30 17:06:39,956 INFO    Thread-12 :293319 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/config.yaml
+2025-01-30 17:06:39,956 INFO    Thread-12 :293319 [dir_watcher.py:_on_file_created():271] file/dir created: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/wandb-summary.json
+2025-01-30 17:06:40,125 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: poll_exit
+2025-01-30 17:06:40,624 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 8
+2025-01-30 17:06:40,624 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: poll_exit
+2025-01-30 17:06:40,624 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:40,624 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 8
+2025-01-30 17:06:40,624 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:40,624 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-01-30 17:06:40,624 INFO    SenderThread:293319 [job_builder.py:build():298] Attempting to build job artifact
+2025-01-30 17:06:40,624 INFO    SenderThread:293319 [job_builder.py:_get_source_type():428] is repo sourced job
+2025-01-30 17:06:40,626 INFO    SenderThread:293319 [job_builder.py:build():404] adding wandb-job metadata file
+2025-01-30 17:06:40,633 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 9
+2025-01-30 17:06:40,634 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:40,634 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 9
+2025-01-30 17:06:40,634 DEBUG   SenderThread:293319 [sender.py:send():378] send: artifact
+2025-01-30 17:06:40,956 INFO    Thread-12 :293319 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/output.log
+2025-01-30 17:06:41,126 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: poll_exit
+2025-01-30 17:06:41,170 INFO    SenderThread:293319 [sender.py:send_artifact():1443] sent artifact job-https___github.com_RodolfoPCruz_genre_classification.git_segregate_run.py - {'id': 'QXJ0aWZhY3Q6MTQ3OTI1OTM2Nw==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NDUwMjAxMA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTQ3OTI1OTM2Nw==', 'versionIndex': 0}}}
+2025-01-30 17:06:41,171 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:41,171 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-01-30 17:06:41,171 INFO    SenderThread:293319 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-01-30 17:06:41,957 INFO    SenderThread:293319 [dir_watcher.py:finish():388] scan: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files
+2025-01-30 17:06:41,957 INFO    SenderThread:293319 [dir_watcher.py:finish():402] scan save: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/wandb-metadata.json wandb-metadata.json
+2025-01-30 17:06:41,957 INFO    SenderThread:293319 [dir_watcher.py:finish():402] scan save: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/wandb-summary.json wandb-summary.json
+2025-01-30 17:06:41,957 INFO    SenderThread:293319 [dir_watcher.py:finish():402] scan save: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/conda-environment.yaml conda-environment.yaml
+2025-01-30 17:06:41,960 INFO    SenderThread:293319 [dir_watcher.py:finish():402] scan save: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/config.yaml config.yaml
+2025-01-30 17:06:41,960 INFO    SenderThread:293319 [dir_watcher.py:finish():402] scan save: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/output.log output.log
+2025-01-30 17:06:41,961 INFO    SenderThread:293319 [dir_watcher.py:finish():402] scan save: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/requirements.txt requirements.txt
+2025-01-30 17:06:41,961 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 10
+2025-01-30 17:06:41,961 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: poll_exit
+2025-01-30 17:06:41,964 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:41,965 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 10
+2025-01-30 17:06:41,970 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:41,970 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-01-30 17:06:41,970 INFO    SenderThread:293319 [file_pusher.py:finish():172] shutting down file pusher
+2025-01-30 17:06:42,130 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: poll_exit
+2025-01-30 17:06:42,131 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: poll_exit
+2025-01-30 17:06:42,369 INFO    wandb-upload_0:293319 [upload_job.py:push():131] Uploaded file /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/wandb-summary.json
+2025-01-30 17:06:42,567 INFO    wandb-upload_2:293319 [upload_job.py:push():131] Uploaded file /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/config.yaml
+2025-01-30 17:06:42,569 INFO    wandb-upload_3:293319 [upload_job.py:push():131] Uploaded file /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/output.log
+2025-01-30 17:06:42,571 INFO    wandb-upload_4:293319 [upload_job.py:push():131] Uploaded file /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/requirements.txt
+2025-01-30 17:06:42,573 INFO    wandb-upload_1:293319 [upload_job.py:push():131] Uploaded file /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/files/conda-environment.yaml
+2025-01-30 17:06:42,773 INFO    Thread-11 (_thread_body):293319 [sender.py:transition_state():613] send defer: 11
+2025-01-30 17:06:42,774 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:42,774 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 11
+2025-01-30 17:06:42,774 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:42,774 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-01-30 17:06:42,774 INFO    SenderThread:293319 [file_pusher.py:join():178] waiting for file pusher
+2025-01-30 17:06:42,775 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 12
+2025-01-30 17:06:42,775 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:42,775 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 12
+2025-01-30 17:06:42,775 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:42,775 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-01-30 17:06:42,775 INFO    SenderThread:293319 [file_stream.py:finish():595] file stream finish called
+2025-01-30 17:06:42,956 INFO    SenderThread:293319 [file_stream.py:finish():599] file stream finish is done
+2025-01-30 17:06:42,956 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 13
+2025-01-30 17:06:42,956 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:42,957 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 13
+2025-01-30 17:06:42,957 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:42,958 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-01-30 17:06:42,958 INFO    SenderThread:293319 [sender.py:transition_state():613] send defer: 14
+2025-01-30 17:06:42,958 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: defer
+2025-01-30 17:06:42,959 INFO    HandlerThread:293319 [handler.py:handle_request_defer():172] handle defer: 14
+2025-01-30 17:06:42,960 DEBUG   SenderThread:293319 [sender.py:send():378] send: final
+2025-01-30 17:06:42,960 DEBUG   SenderThread:293319 [sender.py:send():378] send: footer
+2025-01-30 17:06:42,960 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: defer
+2025-01-30 17:06:42,960 INFO    SenderThread:293319 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-01-30 17:06:42,962 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: poll_exit
+2025-01-30 17:06:42,963 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: poll_exit
+2025-01-30 17:06:42,964 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: poll_exit
+2025-01-30 17:06:42,965 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: poll_exit
+2025-01-30 17:06:42,966 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: server_info
+2025-01-30 17:06:42,967 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: get_summary
+2025-01-30 17:06:42,968 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: server_info
+2025-01-30 17:06:42,974 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: sampled_history
+2025-01-30 17:06:42,974 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: internal_messages
+2025-01-30 17:06:42,975 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: job_info
+2025-01-30 17:06:43,138 DEBUG   SenderThread:293319 [sender.py:send_request():405] send_request: job_info
+2025-01-30 17:06:43,138 INFO    MainThread:293319 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-01-30 17:06:43,139 INFO    MainThread:293319 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-01-30 17:06:43,139 INFO    MainThread:293319 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2025-01-30 17:06:43,140 DEBUG   HandlerThread:293319 [handler.py:handle_request():146] handle_request: shutdown
+2025-01-30 17:06:43,140 INFO    HandlerThread:293319 [handler.py:finish():869] shutting down handler
+2025-01-30 17:06:43,975 INFO    WriterThread:293319 [datastore.py:close():296] close: /home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/wandb/run-20250130_170632-gzxiyh9c/run-gzxiyh9c.wandb
+2025-01-30 17:06:44,138 INFO    SenderThread:293319 [sender.py:finish():1521] shutting down sender
+2025-01-30 17:06:44,138 INFO    SenderThread:293319 [file_pusher.py:finish():172] shutting down file pusher
+2025-01-30 17:06:44,138 INFO    SenderThread:293319 [file_pusher.py:join():178] waiting for file pusher

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rodolfo/Insync/rodolfopcruz2%40gmail.com/Google%20Drive/Estudo/Udacity/Machine%20Learning%20DevOps%20Engineer%20-%20Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/mlruns/0/4d896f5c79ba4ab8b4a0246dc5f5188c/artifacts
+end_time: 1738266633205
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d896f5c79ba4ab8b4a0246dc5f5188c
+run_name: salty-hound-202
+run_uuid: 4d896f5c79ba4ab8b4a0246dc5f5188c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738266276635
+status: 4
+tags: []
+user_id: rodolfo

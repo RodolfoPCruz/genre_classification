@@ -1,0 +1,113 @@
+{
+    "os": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+    "python": "3.10.16",
+    "heartbeatAt": "2025-01-30T20:06:33.082309",
+    "startedAt": "2025-01-30T20:06:32.361400",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/segregate/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "segregate/run.py",
+    "git": {
+        "remote": "https://github.com/RodolfoPCruz/genre_classification.git",
+        "commit": "20fce6bef1e5af45a037e6a334177eea37e312e4"
+    },
+    "email": "rodolfo_pinheiro@hotmail.com",
+    "root": "/home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification",
+    "host": "rodolfo-Vostro-3681",
+    "username": "rodolfo",
+    "executable": "/home/rodolfo/anaconda3/envs/mlflow-f9ba271db3d11ecbef8779ccec5d3db3d87fa2a0/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2933.5902499999993,
+        "min": 800.0,
+        "max": 4300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4000.001,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4000.186,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4000.013,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3998.168,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4000.102,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4007.705,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3997.492,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4003.471,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 800.042,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 800.772,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 799.994,
+            "min": 800.0,
+            "max": 4300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 233.17998886108398,
+            "used": 217.98116302490234
+        }
+    },
+    "memory": {
+        "total": 31.09457015991211
+    }
+}

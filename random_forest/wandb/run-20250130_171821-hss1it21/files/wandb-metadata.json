@@ -1,0 +1,113 @@
+{
+    "os": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+    "python": "3.10.16",
+    "heartbeatAt": "2025-01-30T20:18:21.855685",
+    "startedAt": "2025-01-30T20:18:21.235290",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/outputs/2025-01-30/17-17-18/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/RodolfoPCruz/genre_classification.git",
+        "commit": "20fce6bef1e5af45a037e6a334177eea37e312e4"
+    },
+    "email": "rodolfo_pinheiro@hotmail.com",
+    "root": "/home/rodolfo/Insync/rodolfopcruz2@gmail.com/Google Drive/Estudo/Udacity/Machine Learning DevOps Engineer - Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification",
+    "host": "rodolfo-Vostro-3681",
+    "username": "rodolfo",
+    "executable": "/home/rodolfo/anaconda3/envs/mlflow-b71ce8844054e0c802e265ec9d1ee4558a5639cf/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3289.0632500000006,
+        "min": 800.0,
+        "max": 4300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3936.043,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3999.601,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 2600.005,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4000.332,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 2600.042,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3224.764,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4000.029,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3999.987,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4000.026,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3995.229,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3997.985,
+            "min": 800.0,
+            "max": 4300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 233.17998886108398,
+            "used": 218.01677703857422
+        }
+    },
+    "memory": {
+        "total": 31.09457015991211
+    }
+}

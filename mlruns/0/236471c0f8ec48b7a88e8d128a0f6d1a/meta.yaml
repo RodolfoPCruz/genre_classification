@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rodolfo/Insync/rodolfopcruz2%40gmail.com/Google%20Drive/Estudo/Udacity/Machine%20Learning%20DevOps%20Engineer%20-%20Nanodegree/Exercicios/Curso_3/Exercicios_cap_3/genre_classification/mlruns/0/236471c0f8ec48b7a88e8d128a0f6d1a/artifacts
+end_time: 1738265295114
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 236471c0f8ec48b7a88e8d128a0f6d1a
+run_name: judicious-swan-702
+run_uuid: 236471c0f8ec48b7a88e8d128a0f6d1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738265013841
+status: 4
+tags: []
+user_id: rodolfo
